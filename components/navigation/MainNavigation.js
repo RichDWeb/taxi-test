@@ -91,7 +91,7 @@ export default function MainNavigation() {
                     </div>
                 </Link>
 
-                <ul className="lg:flex flex-1 justify-end items-center hidden space-x-4">
+                <ul className="md:flex flex-1 justify-end items-center hidden space-x-4 m-4">
                     {(mainMenu || []).map( (item) => (
                         <li                          
                             key={item.id} 
@@ -146,7 +146,7 @@ export default function MainNavigation() {
                         text-white 
                         text-2xl 
                         cursor-pointer 
-                        lg:hidden
+                        md:hidden
                         hover:text-main-yellow z-50"/>
                 
                 <div 

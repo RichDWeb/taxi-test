@@ -281,11 +281,11 @@ export default function BookingForm() {
                             </div>
                         </div>
                         <div className='w-full mt-4'>
-                            <Link
-                                href="/booking" 
+                            <button
+                                type='submit'
                                 className="btn btn-yellow">
                                 Send Request
-                            </Link>
+                            </button>
                         </div>
                     </form>
                 </div>

@@ -21,7 +21,7 @@ export default function SearchPage() {
         setFixedPrices(data.pag)
     }
 
-    useEffect(()=>{getPrices()})
+    useEffect(()=>{getPrices()}, [])
 
     if(!fixedPrices) {
         return <p>Loading...</p>

@@ -35,7 +35,7 @@ export const PopularServices = () => {
                             
                             
                             <div className='mt-14'>
-                                <Link href="/link" className='btn btn-yellow flex items-center justify-center'>
+                                <Link href="/services/airport-transfers" className='btn btn-yellow flex items-center justify-center'>
                                     Learn More
                                     <BsArrowRight className='text-xl mx-2' />
                                 </Link>
@@ -63,7 +63,7 @@ export const PopularServices = () => {
                             service.</p>
                             
                             <div className='mt-14'>
-                            <Link href="/link" className='btn btn-yellow flex items-center justify-center'>
+                            <Link href="/pricing/1" className='btn btn-yellow flex items-center justify-center'>
                                     Learn More
                                     <BsArrowRight className='text-xl mx-2' />
                                 </Link>
@@ -90,7 +90,7 @@ export const PopularServices = () => {
                             travel, so you can enjoy the sun and sea with no transport worries.</p>
                             
                             <div className='mt-20'>
-                            <Link href="/link" className='btn btn-yellow flex items-center justify-center'>
+                            <Link href="/services/cruise-transfers" className='btn btn-yellow flex items-center justify-center'>
                                     Learn More
                                     <BsArrowRight className='text-xl mx-2' />
                                 </Link>

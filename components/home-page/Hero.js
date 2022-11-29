@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import BookingForm from '../inputs/BookingForm'
-import { BsArrowRight } from 'react-icons/bs'
 
 export const Hero = () => {
     return(
@@ -13,31 +12,40 @@ export const Hero = () => {
                     <BookingForm />
 
                     <p className='
-                        mt-52 
+                        md:mt-52
+                        mt-32 
                         font-interRegular
                         font-semibold
                         text-main-yellow 
                         text-sm'>24/7 Taxi Service</p>
-                    <h1 className='
+                    <h1 
+                        className='
                             md:text-6xl
-                            text-5xl
+                            text-4xl
                             text-left
                             font-interBold
                             w-full
                             md:max-w-[670px] 
                             capitalize
                             '>The best way to get wherever youre going</h1>
-                    <p className='
-                        md:w-[540px] 
-                        mt-8 
-                        font-interRegular'>We are a 24-hour Burry Port based Taxi courier providing excellent services for local, airport  and cruise transport services to which your satisfaction, safety and time is our main goal. 
-                        </p>
+                    <p 
+                        className='
+                            md:w-[540px] 
+                            mt-8 
+                            font-interRegular
+                            md:text-base
+                            text-sm
+                            '>
+                        We are a 24-hour Burry Port based Taxi courier providing excellent services for local, 
+                        airport  and cruise transport services to which your satisfaction, safety and time is 
+                        our main goal. 
+                    </p>
 
-                    <div className='md:w-96 w-full my-10 md:hidden flex'>
+                    <div className='md:w-96 w-full my-10 lg:hidden flex'>
                         <Link 
                             href="/booking"
                             className='btn btn-yellow'>
-                                Find A Taxi
+                                Book Your Taxi
                         </Link>
                     </div>
                 </div>

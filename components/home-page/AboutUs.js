@@ -5,7 +5,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 export const AboutUs = () => {
     
     return(
-        <section className='lg:h-[700px] md:h-[600px] h-[760px] flex items-center'>
+        <section className='lg:h-[700px] md:h-[600px] h-[760px] flex items-center mt-20'>
             <div className='flex flex-row w-full max-w-7xl mx-auto'>
 
                 <div className='lg:relative lg:block hidden'>
