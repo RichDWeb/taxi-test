@@ -1,6 +1,6 @@
-import { BookingForm } from "./BookingForm/BookingForm"
+import BookingForm from "./BookingForm"
 
-export const Booking = () => {
+export default function Booking() {
     return (
         <section className='my-6 mb-28'>
             <div className='w-full md:max-w-[1200px] mx-auto'>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import BreadCrumbs from '../navigation/BreadCrumb'
 
-export const Hero = () => {
+export default function Hero() {
     
     return (
         <section>

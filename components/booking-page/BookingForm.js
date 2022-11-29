@@ -15,7 +15,7 @@ const schema = z.object({
 
 })
 
-export const BookingForm = () => {
+export default function BookingForm()  {
 
     const [returnWay, setReturnWay] = useState(false)
     const { register, handleSubmit, formState: { errors } } = useForm({
