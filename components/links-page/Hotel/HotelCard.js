@@ -18,7 +18,7 @@ export const HotelCard = ({hotel}) => {
                 md:flex-row
                 flex-col">
             <div className='absolute top-6 right-6 h-12 w-12 bg-main-yellow rounded flex items-center justify-center font-interSemiBold'>{hotel.rating}</div>
-            <div className='w-[366px] h-[244px] relative m-4 overflow-hidden cursor-pointer'>
+            <div className='w-full max-w-[366px] h-[244px] relative m-4 overflow-hidden cursor-pointer'>
                 <Image 
                     fill={true}
                     src={hotel.image} 

@@ -3,6 +3,7 @@ import { useRouter } from "next/router"
 import Link from "next/link"
 import Logo from "../ui/Logo"
 import { CgMenu } from "react-icons/cg"
+import { BiChevronDown } from 'react-icons/bi'
 
 export default function MainNavigation() {
 
@@ -96,7 +97,6 @@ export default function MainNavigation() {
                             key={item.id} 
                             className="relative group cursor-pointer">
                             <Link 
-                        
                                 className={`py-5 hover:text-main-yellow`} 
                                 href={item.destination}>
                                 {item.label}
@@ -174,8 +174,10 @@ export default function MainNavigation() {
                                     border-white/30
                                     ">
                                 <Link
+                                    className="flex items-center justify-between"
                                     href={item.destination}>
                                     {item.label}
+                                    {item.label === 'Services' && <BiChevronDown  className="text-lg"/>}
                                 </Link>
 
                                 

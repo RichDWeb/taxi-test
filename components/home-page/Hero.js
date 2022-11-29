@@ -20,7 +20,7 @@ export const Hero = () => {
                         text-sm'>24/7 Taxi Service</p>
                     <h1 className='
                             md:text-6xl
-                            text-4xl
+                            text-5xl
                             text-left
                             font-interBold
                             w-full

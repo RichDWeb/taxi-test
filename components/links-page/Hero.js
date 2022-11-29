@@ -18,7 +18,7 @@ export const Hero = () => {
                     px-4'>
 
                     <div className='flex flex-col md:items-center justify-center h-full w-full'>
-                        <h1 className='md:text-5xl text-3xl font-interExtraBold uppercase'>Useful Links</h1>
+                        <h1 className='md:text-5xl text-4xl font-interExtraBold uppercase'>Useful Links</h1>
                         <BreadCrumbs current="Useful Links" />
                     </div>
 

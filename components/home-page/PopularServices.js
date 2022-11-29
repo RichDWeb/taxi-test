@@ -6,7 +6,7 @@ export const PopularServices = () => {
     return (
         <section className="bg-[#FAFAFA] w-full md:h-[914px] h-full py-10">
             <div className="w-full h-full max-w-7xl mx-auto flex flex-col justify-center">
-                <div className='text-center'>
+                <div className='md:text-center text-left p-4'>
                     <h4 className='text-main-yellow text-xs uppercase font-interBold'>Local Cabs</h4>
                     <h2 className='text-zinc-800 text-4xl font-interExtraBold uppercase'>Popular Services</h2>
                     <p className='text-zinc-600 text-base mt-8 font-interRegular leading-7 md:w-[602px] w-full mx-auto'>No matter what service you’re looking for, Local Cabs will cater for 

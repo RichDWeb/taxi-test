@@ -15,7 +15,7 @@ export const SportCard = ({sport}) => {
                 flex
                 md:flex-row
                 flex-col">
-            <div className='w-[366px] h-[244px] relative m-4 overflow-hidden cursor-pointer'>
+            <div className='w-[366px] h-[244px] m-4 overflow-hidden cursor-pointer relative'>
                 <Image 
                     fill={true}
                     src={sport.image} 
