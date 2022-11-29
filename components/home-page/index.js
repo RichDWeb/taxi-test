@@ -1,0 +1,5 @@
+export * from './Hero'
+export * from './AboutUs'
+export * from './PopularServices'
+export * from './PopularPlaces'
+export * from './Reviews'

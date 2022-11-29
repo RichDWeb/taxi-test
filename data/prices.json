@@ -1,0 +1,835 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Fforestfach",
+            "cost": 170
+        },
+        {
+            "id": 2,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Fforestfach",
+            "cost": 105
+        },
+        {
+            "id": 3,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Fforestfach",
+            "cost": 65
+        },
+        {
+            "id": 4,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Fforestfach",
+            "cost": 220
+        },
+        {
+            "id": 5,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Fforestfach",
+            "cost": 185
+        },
+        {
+            "id": 6,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Fforestfach",
+            "cost": 235
+        },
+        {
+            "id": 7,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gorseinon",
+            "cost": 170
+        },
+        {
+            "id": 8,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gorseinon",
+            "cost": 105
+        },
+        {
+            "id": 9,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gorseinon",
+            "cost": 65
+        },
+        {
+            "id": 10,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gorseinon",
+            "cost": 220
+        },
+        {
+            "id": 11,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gorseinon",
+            "cost": 185
+        },
+        {
+            "id": 12,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gorseinon",
+            "cost": 235
+        },
+        {
+            "id": 13,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gower Peninsula",
+            "cost": 170
+        },
+        {
+            "id": 14,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gower Peninsula",
+            "cost": 105
+        },
+        {
+            "id": 15,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gower Peninsula",
+            "cost": 70
+        },
+        {
+            "id": 16,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gower Peninsula",
+            "cost": 220
+        },
+        {
+            "id": 17,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gower Peninsula",
+            "cost": 185
+        },
+        {
+            "id": 18,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Gower Peninsula",
+            "cost": 235
+        },
+        {
+            "id": 19,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Mumbles",
+            "cost": 170
+        },
+        {
+            "id": 20,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Mumbles",
+            "cost": 105
+        },
+        {
+            "id": 21,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Mumbles",
+            "cost": 65
+        },
+        {
+            "id": 22,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Mumbles",
+            "cost": 220
+        },
+        {
+            "id": 23,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Mumbles",
+            "cost": 185
+        },
+        {
+            "id": 24,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Mumbles",
+            "cost": 235
+        },
+        {
+            "id": 25,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Oldwalls ",
+            "cost": 170
+        },
+        {
+            "id": 26,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Oldwalls ",
+            "cost": 105
+        },
+        {
+            "id": 27,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Oldwalls ",
+            "cost": 70
+        },
+        {
+            "id": 28,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Oldwalls ",
+            "cost": 220
+        },
+        {
+            "id": 29,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Oldwalls ",
+            "cost": 185
+        },
+        {
+            "id": 30,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Oldwalls ",
+            "cost": 235
+        },
+        {
+            "id": 31,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Sketty ",
+            "cost": 170
+        },
+        {
+            "id": 32,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Sketty ",
+            "cost": 105
+        },
+        {
+            "id": 33,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Sketty ",
+            "cost": 65
+        },
+        {
+            "id": 34,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Sketty ",
+            "cost": 220
+        },
+        {
+            "id": 35,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Sketty ",
+            "cost": 185
+        },
+        {
+            "id": 36,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Sketty ",
+            "cost": 235
+        },
+        {
+            "id": 37,
+            "airport": "Birmingham Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Swansea city",
+            "cost": 170
+        },
+        {
+            "id": 38,
+            "airport": "Bristol Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Swansea city",
+            "cost": 105
+        },
+        {
+            "id": 39,
+            "airport": "Cardiff Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Swansea city",
+            "cost": 60
+        },
+        {
+            "id": 40,
+            "airport": "Gatwick Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Swansea city",
+            "cost": 220
+        },
+        {
+            "id": 41,
+            "airport": "Heathrow Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Swansea city",
+            "cost": 185
+        },
+        {
+            "id": 42,
+            "airport": "Manchester Airport",
+            "county": "West Glamorgan",
+            "city": "Swansea",
+            "area": "Swansea city",
+            "cost": 235
+        },
+        {
+            "id": 43,
+            "airport": "Birmingham Airport",
+            "city": "Ammanford ",
+            "cost": 175
+        },
+        {
+            "id": 44,
+            "airport": "Birmingham Airport",
+            "city": "Carmarthen",
+            "cost": 175
+        },
+        {
+            "id": 45,
+            "airport": "Birmingham Airport",
+            "city": "Cross Hands",
+            "cost": 175
+        },
+        {
+            "id": 46,
+            "airport": "Birmingham Airport",
+            "city": "Johnstown",
+            "cost": 175
+        },
+        {
+            "id": 47,
+            "airport": "Birmingham Airport",
+            "city": "Lampeter",
+            "cost": 175
+        },
+        {
+            "id": 48,
+            "airport": "Birmingham Airport",
+            "city": "Llanandeilo",
+            "cost": 175
+        },
+        {
+            "id": 49,
+            "airport": "Birmingham Airport",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 175
+        },
+        {
+            "id": 50,
+            "airport": "Birmingham Airport",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 175
+        },
+        {
+            "id": 51,
+            "airport": "Birmingham Airport",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 175
+        },
+        {
+            "id": 52,
+            "airport": "Birmingham Airport",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 175
+        },
+        {
+            "id": 53,
+            "airport": "Birmingham Airport",
+            "city": "Tumble",
+            "cost": 175
+        },
+        {
+            "id": 54,
+            "airport": "Bristol Airport",
+            "city": "Ammanford ",
+            "cost": 125
+        },
+        {
+            "id": 55,
+            "airport": "Bristol Airport",
+            "city": "Carmarthen",
+            "cost": 125
+        },
+        {
+            "id": 56,
+            "airport": "Bristol Airport",
+            "city": "Cross Hands",
+            "cost": 125
+        },
+        {
+            "id": 57,
+            "airport": "Bristol Airport",
+            "city": "Johnstown",
+            "cost": 125
+        },
+        {
+            "id": 58,
+            "airport": "Bristol Airport",
+            "city": "Lampeter",
+            "cost": 125
+        },
+        {
+            "id": 59,
+            "airport": "Bristol Airport",
+            "city": "Llanandeilo",
+            "cost": 125
+        },
+        {
+            "id": 60,
+            "airport": "Bristol Airport",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 125
+        },
+        {
+            "id": 61,
+            "airport": "Bristol Airport",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 125
+        },
+        {
+            "id": 62,
+            "airport": "Bristol Airport",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 125
+        },
+        {
+            "id": 63,
+            "airport": "Bristol Airport",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 125
+        },
+        {
+            "id": 64,
+            "airport": "Bristol Airport",
+            "city": "Tumble",
+            "cost": 125
+        },
+        {
+            "id": 65,
+            "airport": "Cardiff Airport",
+            "city": "Ammanford ",
+            "cost": 75
+        },
+        {
+            "id": 66,
+            "airport": "Cardiff Airport",
+            "city": "Carmarthen",
+            "cost": 75
+        },
+        {
+            "id": 67,
+            "airport": "Cardiff Airport",
+            "city": "Cross Hands",
+            "cost": 65
+        },
+        {
+            "id": 68,
+            "airport": "Cardiff Airport",
+            "city": "Johnstown",
+            "cost": 75
+        },
+        {
+            "id": 69,
+            "airport": "Cardiff Airport",
+            "city": "Lampeter",
+            "cost": 100
+        },
+        {
+            "id": 70,
+            "airport": "Cardiff Airport",
+            "city": "Llanandeilo",
+            "cost": 85
+        },
+        {
+            "id": 71,
+            "airport": "Cardiff Airport",
+            "county": "Carmarthenshire",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 75
+        },
+        {
+            "id": 72,
+            "airport": "Cardiff Airport",
+            "county": "Carmarthenshire",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 75
+        },
+        {
+            "id": 73,
+            "airport": "Cardiff Airport",
+            "county": "Carmarthenshire",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 75
+        },
+        {
+            "id": 74,
+            "airport": "Cardiff Airport",
+            "county": "Carmarthenshire",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 75
+        },
+        {
+            "id": 75,
+            "airport": "Cardiff Airport",
+            "city": "Tumble",
+            "cost": 65
+        },
+        {
+            "id": 76,
+            "airport": "Gatwick Airport",
+            "city": "Ammanford ",
+            "cost": 239
+        },
+        {
+            "id": 77,
+            "airport": "Gatwick Airport",
+            "city": "Carmarthen",
+            "cost": 239
+        },
+        {
+            "id": 78,
+            "airport": "Gatwick Airport",
+            "city": "Cross Hands",
+            "cost": 239
+        },
+        {
+            "id": 79,
+            "airport": "Gatwick Airport",
+            "city": "Johnstown",
+            "cost": 239
+        },
+        {
+            "id": 80,
+            "airport": "Gatwick Airport",
+            "city": "Lampeter",
+            "cost": 239
+        },
+        {
+            "id": 81,
+            "airport": "Gatwick Airport",
+            "city": "Llanandeilo",
+            "cost": 239
+        },
+        {
+            "id": 82,
+            "airport": "Gatwick Airport",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 225
+        },
+        {
+            "id": 83,
+            "airport": "Gatwick Airport",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 225
+        },
+        {
+            "id": 84,
+            "airport": "Gatwick Airport",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 225
+        },
+        {
+            "id": 85,
+            "airport": "Gatwick Airport",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 225
+        },
+        {
+            "id": 86,
+            "airport": "Gatwick Airport",
+            "city": "Tumble",
+            "cost": 239
+        },
+        {
+            "id": 87,
+            "airport": "London Heathrow Airport",
+            "city": "Tumble",
+            "cost": 195
+        },
+        {
+            "id": 88,
+            "airport": "London Heathrow Airport",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 195
+        },
+        {
+            "id": 89,
+            "airport": "London Heathrow Airport",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 195
+        },
+        {
+            "id": 90,
+            "airport": "London Heathrow Airport",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 195
+        },
+        {
+            "id": 91,
+            "airport": "London Heathrow Airport",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 195
+        },
+        {
+            "id": 92,
+            "airport": "London Heathrow Airport",
+            "city": "Llanandeilo",
+            "cost": 195
+        },
+        {
+            "id": 93,
+            "airport": "London Heathrow Airport",
+            "city": "Lampeter",
+            "cost": 195
+        },
+        {
+            "id": 94,
+            "airport": "London Heathrow Airport",
+            "city": "Johnstown",
+            "cost": 195
+        },
+        {
+            "id": 95,
+            "airport": "London Heathrow Airport",
+            "county": "a",
+            "city": "Cross Hands",
+            "cost": 195
+        },
+        {
+            "id": 96,
+            "airport": "London Heathrow Airport",
+            "city": "Carmarthen",
+            "cost": 195
+        },
+        {
+            "id": 97,
+            "airport": "London Heathrow Airport",
+            "city": "Ammanford ",
+            "cost": 195
+        },
+        {
+            "id": 98,
+            "airport": "Manchester Airport",
+            "city": "Ammanford ",
+            "cost": 225
+        },
+        {
+            "id": 99,
+            "airport": "Manchester Airport",
+            "city": "Carmarthen",
+            "cost": 225
+        },
+        {
+            "id": 100,
+            "airport": "Manchester Airport",
+            "city": "Cross Hands",
+            "cost": 225
+        },
+        {
+            "id": 101,
+            "airport": "Manchester Airport",
+            "city": "Johnstown",
+            "cost": 225
+        },
+        {
+            "id": 102,
+            "airport": "Manchester Airport",
+            "city": "Lampeter",
+            "cost": 225
+        },
+        {
+            "id": 103,
+            "airport": "Manchester Airport",
+            "city": "Llanandeilo",
+            "cost": 225
+        },
+        {
+            "id": 104,
+            "airport": "Manchester Airport",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 225
+        },
+        {
+            "id": 105,
+            "airport": "Manchester Airport",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 225
+        },
+        {
+            "id": 106,
+            "airport": "Manchester Airport",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 225
+        },
+        {
+            "id": 107,
+            "airport": "Manchester Airport",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 225
+        },
+        {
+            "id": 108,
+            "airport": "Manchester Airport",
+            "city": "Tumble",
+            "cost": 225
+        },
+        {
+            "id": 109,
+            "airport": "Stanstead Airport",
+            "city": "Ammanford ",
+            "cost": 240
+        },
+        {
+            "id": 110,
+            "airport": "Stanstead Airport",
+            "city": "Carmarthen",
+            "cost": 240
+        },
+        {
+            "id": 111,
+            "airport": "Stanstead Airport",
+            "city": "Cross Hands",
+            "cost": 240
+        },
+        {
+            "id": 112,
+            "airport": "Stanstead Airport",
+            "city": "Johnstown",
+            "cost": 240
+        },
+        {
+            "id": 113,
+            "airport": "Stanstead Airport",
+            "city": "Lampeter",
+            "cost": 240
+        },
+        {
+            "id": 114,
+            "airport": "Stanstead Airport",
+            "city": "Llanandeilo",
+            "cost": 240
+        },
+        {
+            "id": 115,
+            "airport": "Stanstead Airport",
+            "city": "Llanelli",
+            "postcode": "SA14",
+            "cost": 240
+        },
+        {
+            "id": 116,
+            "airport": "Stanstead Airport",
+            "city": "Llanelli",
+            "postcode": "SA15",
+            "cost": 240
+        },
+        {
+            "id": 117,
+            "airport": "Stanstead Airport",
+            "city": "Llanelli",
+            "postcode": "SA16",
+            "cost": 240
+        },
+        {
+            "id": 118,
+            "airport": "Stanstead Airport",
+            "city": "Llanelli",
+            "postcode": "SA17 ",
+            "cost": 240
+        },
+        {
+            "id": 119,
+            "airport": "Stanstead Airport",
+            "city": "Tumble",
+            "cost": 240
+        }
+    ]
+}

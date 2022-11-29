@@ -1,0 +1,91 @@
+{
+    "services": [
+        {
+            "id": "1",
+            "card-image": "/images/services-page/anna-gru-EzTGFKfEdmM-unsplash.jpg",
+            "hero-image": "/images/services-page/alessio-rinella-bTmb61fYKrI-unsplash.jpg",
+            "main-image": "/images/services-page/eduardo-velazco-guart-Nukqi6L_5DU-unsplash.jpg",
+            "title": "Airport Transfers",
+            "body": "Looking for a satisfied, safe and on time airport transfers to and from Wales or England airports such as Cardiff, Bristol, Heathrow and more?",
+            "link": "/services/airport-transfers",
+            "slug": "airport-transfers",
+            "breadcrumb": ["services", "airport-transfers"],
+            "icon": "plane",
+            "intro": [ 
+                { 
+                    
+                    "part1": {
+                        "heading": "UK AND WALES AIRPORT TRANSFERS",
+                        "paragraph1": "Looking for a satisfied, safe and on time airport transfers to and from Wales or England airports such as Cardiff, Bristol, Heathrow and more? Pre-book your airport transfer with Local Cabs today."
+                    },
+                    "part2": {
+                        "heading": "Reliable airport transfers",
+                        "paragraph1": "With airport transfers from Local Cabs, you can relax. Pre-book our reliable airport transfers to and from all UK airports, in advance, 24 hrs a day, 365 days a year, via online or by phone.",
+                        "paragraph2": "Our professional, friendly driver will collect you on time for your airport transfer, and be ready and waiting for your return, any time day or night. Our vehicles are capable of carrying up to six passengers and luggage to any UK airports or regional UK Airport, including Southampton, Luton and London City.",
+                        "paragraph3": "You can also request to travel in one of our SUVs (subject to availability)"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "card-image": "/images/services-page/adam-gonzales-A2MkCqYrSUw-unsplash.jpg",
+            "hero-image": "/images/services-page/alonso-reyes-haZNHEV2WXQ-unsplash.jpg",
+            "main-image": "/images/services-page/colin-lloyd-JW5j3o_HYgM-unsplash.jpg",
+            "title": "Cruise Transfers",
+            "body": "Start your luxury cruise the relaxed way, with a private taxi transfer from Your Local Car. Sit back in comfort in our spacious vehicles, let us do the driving, and arrive at your cruise ...",
+            "link": "/services/cruise-transfers",
+            "slug": "cruise-transfers",
+            "breadcrumb": ["services", "cruise-transfers"],
+            "icon": "ship",
+            "intro": [ 
+                { 
+                    "heading1": "UK AND WALES AIRPORT TRANSFERS ", 
+                    "paragraph1": "Looking for a satisfied, safe and on time airport transfers to and from Wales or England airports such as Cardiff, Bristol, Heathrow and more? Pre-book your airport transfer with Local Cabs today.",
+                    "heading2": "Reliable airport transfers",
+                    "paragraph2": "With airport transfers from Local Cabs, you can relax. Pre-book our reliable airport transfers to and from all UK airports, in advance, 24 hrs a day, 365 days a year, via online or by phone. Our professional, friendly driver will collect you on time for your airport transfer, and be ready and waiting for your return, any time day or night. Our vehicles are capable of carrying up to six passengers and luggage to any UK airports or regional UK Airport, including Southampton, Luton and London City. You can also request to travel in one of our SUVs (subject to availability)."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "card-image": "/images/services-page/pat-krupa-CJGBPvTKykU-unsplash.jpg",
+            "hero-image": "/images/services-page/pat-krupa-CJGBPvTKykU-unsplash.jpg",
+            "main-image": "/images/services-page/jan-philipp-thiele-9M4oAm-zwRs-unsplash.jpg",
+            "title": "Train Transfers",
+            "body": "Why wait in long queues in the cold and wet for a train station taxi? Pre-book our private hire cars online , and our professional drivers will collect and drop you off at national ...",
+            "link": "/services/train-transfers",
+            "slug": "train-transfers",
+            "breadcrumb": ["services", "train-transfers"],
+            "icon": "train",
+            "intro": [ 
+                { 
+                    "heading1": "UK AND WALES AIRPORT TRANSFERS ", 
+                    "paragraph1": "Looking for a satisfied, safe and on time airport transfers to and from Wales or England airports such as Cardiff, Bristol, Heathrow and more? Pre-book your airport transfer with Local Cabs today.",
+                    "heading2": "Reliable airport transfers",
+                    "paragraph2": "With airport transfers from Local Cabs, you can relax. Pre-book our reliable airport transfers to and from all UK airports, in advance, 24 hrs a day, 365 days a year, via online or by phone. Our professional, friendly driver will collect you on time for your airport transfer, and be ready and waiting for your return, any time day or night. Our vehicles are capable of carrying up to six passengers and luggage to any UK airports or regional UK Airport, including Southampton, Luton and London City. You can also request to travel in one of our SUVs (subject to availability)."
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "card-image": "/images/services-page/louis-hansel-yLUvnCFI500-unsplash.jpg",
+            "hero-image": "/images/services-page/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg",
+            "main-image": "/images/services-page/joshua-coleman-0bZNGLbTKvo-unsplash.jpg",
+            "title": "Social Transfers",
+            "body": "Make it a special night (or day) out with Local Cabs, as our friendly drivers drive you and your family in safety and comfort to local venues for football matches, theatre shows ...",
+            "link": "/services/social-transfers",
+            "slug": "social-transfers",
+            "breadcrumb": ["services", "social-transfers"],
+            "icon": "social",
+            "intro": [ 
+                { 
+                    "heading1": "UK AND WALES AIRPORT TRANSFERS ", 
+                    "paragraph1": "Looking for a satisfied, safe and on time airport transfers to and from Wales or England airports such as Cardiff, Bristol, Heathrow and more? Pre-book your airport transfer with Local Cabs today.",
+                    "heading2": "Reliable airport transfers",
+                    "paragraph2": "With airport transfers from Local Cabs, you can relax. Pre-book our reliable airport transfers to and from all UK airports, in advance, 24 hrs a day, 365 days a year, via online or by phone. Our professional, friendly driver will collect you on time for your airport transfer, and be ready and waiting for your return, any time day or night. Our vehicles are capable of carrying up to six passengers and luggage to any UK airports or regional UK Airport, including Southampton, Luton and London City. You can also request to travel in one of our SUVs (subject to availability)."
+                }
+            ]
+        }
+    ]
+}
