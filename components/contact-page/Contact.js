@@ -18,9 +18,9 @@ export const Contact = () => {
                             </h2>
                             
                             <p className='mt-5 text-zinc-600 text-base font-interRegular leading-7'>
-                            You're not going to hit a ridiculously long phone menu when you call us. Your email isn't going to 
+                            You&#39;re not going to hit a ridiculously long phone menu when you call us. Your email isn&#39;t going to 
                             the inbox abyss, never to be seen or heard from again. At Burry Port Local Cabs, we provide the 
-                            exceptional service we'd want to experience ourselves!
+                            exceptional service we&#39;d want to experience ourselves!
                             </p>
 
                             <ContactForm />

@@ -89,7 +89,9 @@ export const Reviews = () => {
                 <div className='flex space-x-1 mt-20'>
                     {reviews.map((item, pos) => {
                         return (
-                            <div className={`${pos === index ? 'bg-main-yellow' : 'bg-black/10'} rounded-full w-4 h-4`}></div>
+                            <div
+                                key={item.id}
+                                className={`${pos === index ? 'bg-main-yellow' : 'bg-black/10'} rounded-full w-4 h-4`}></div>
                         )
                     })}
                 </div>

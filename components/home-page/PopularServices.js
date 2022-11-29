@@ -21,6 +21,7 @@ export const PopularServices = () => {
                         <div className='relative w-full h-[210px] overflow-hidden cursor-pointer '>
                             <Image 
                                 src="/images/home-page/popular-services/pexels-adhitya-andanu-1539116.jpg" 
+                                alt="Wet airport."
                                 fill={true}
                                 className="object-cover rounded-t-md hover:scale-125 transition-all duration-500"
                             />
@@ -48,6 +49,7 @@ export const PopularServices = () => {
                         <div className='relative w-full h-[210px] overflow-hidden cursor-pointer '>
                             <Image 
                                 src="/images/home-page/popular-services/michael-schaffler-3_Qy2hKaIHA-unsplash.jpg" 
+                                alt="Cardiff Bay."
                                 fill={true}
                                 className="object-cover rounded-t-md hover:scale-125 transition-all duration-500"
                             />
@@ -73,7 +75,8 @@ export const PopularServices = () => {
 
                         <div className='relative w-full h-[210px] overflow-hidden cursor-pointer '>
                             <Image 
-                                src="/images/home-page/popular-services/alonso-reyes-haZNHEV2WXQ-unsplash.jpg" 
+                                src="/images/home-page/popular-services/alonso-reyes-haZNHEV2WXQ-unsplash.jpg"
+                                alt="Cruise Ferry." 
                                 fill={true}
                                 className="object-cover rounded-t-md hover:scale-125 transition-all duration-500"
                             />

@@ -3,7 +3,7 @@ import path from 'path'
 import Hero from "../../components/services-page/Hero"
 import ServiceList from "../../components/services-page/ServicesList"
 
-export default function({defaults, services}) {
+export default function ServicesPage({defaults, services}) {
     return (
         <>
             <Hero service={defaults} />

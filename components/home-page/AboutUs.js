@@ -12,12 +12,15 @@ export const AboutUs = () => {
                     <div className='relative w-[352px] h-[352px]'>
                         <Image 
                             src="/images/home-page/reuben-rohard-e02Z7-vNBTM-unsplash.jpg" 
+                            alt="Building blocks"
                             fill={true}
                             className="object-cover"
                         />
                     </div>
                     <div className='w-[303px] h-[303px] absolute top-32 left-32'>
-                        <Image src="/images/home-page/happy-hispanic-latino-couple-taking-a-taxi.jpg" 
+                        <Image 
+                            src="/images/home-page/happy-hispanic-latino-couple-taking-a-taxi.jpg" 
+                            alt="Happy couple in a taxi"
                             fill={true}
                             className="object-cover border-8 border-white shadow-lg"
                         />

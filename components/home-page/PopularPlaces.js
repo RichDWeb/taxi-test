@@ -23,6 +23,7 @@ export const PopularPlaces = () => {
                     <div className="relative md:w-[640px] w-full h-[453px] order-1 overflow-hidden cursor-pointer">
                         <Image 
                             src="/images/home-page/links/burryport-beach.jpg"
+                            alt="Burry port beach."
                             fill={true}
                             className="object-cover hover:scale-125 transition-all duration-500"
                         />
@@ -51,6 +52,7 @@ export const PopularPlaces = () => {
                     <div className="relative md:w-[640px] w-full h-[453px] md:order-2 order-1 overflow-hidden cursor-pointer">
                         <Image 
                             src="/images/home-page/links/pembrey-beach.jpg"
+                            alt="Pembery country park and Beach."
                             fill={true}
                             className="object-cover hover:scale-125 transition-all duration-500"
                         />

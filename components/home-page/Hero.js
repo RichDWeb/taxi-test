@@ -24,7 +24,7 @@ export const Hero = () => {
                             w-full
                             md:max-w-[670px] 
                             capitalize
-                            '>The best way to get wherever you're going</h1>
+                            '>The best way to get wherever youre going</h1>
                     <p className='
                         md:w-[540px] 
                         mt-8 
@@ -42,12 +42,14 @@ export const Hero = () => {
 
                 <Image 
                     src={'/images/heros/hero_overlay_4.png'}
+                    alt=""
                     fill={true}
                     className="object-cover opacity-80 z-20"
                 />
 
                 <Image 
                     src={'/images/heros/woman_waiting_for_a_cab.jpg'}
+                    alt="Woman with a yellow top waiting for a taxi."
                     fill={true}
                     className="object-cover z-10"
                 />
