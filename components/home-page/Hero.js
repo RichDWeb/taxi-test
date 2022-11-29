@@ -6,11 +6,11 @@ import { BsArrowRight } from 'react-icons/bs'
 export const Hero = () => {
     return(
         <section>
-            <div className='relative flex w-full bg-main-dark'>            
-                <div className='relative z-30 text-white w-full max-w-[1484px] h-[800px] mx-auto px-4'>
+            <div className='relative flex w-full bg-main-dark'>   
+            
+                <div className='relative z-30 text-white w-full max-w-[1484px] md:h-[800px] mx-auto px-4'>
 
                     <BookingForm />
-
 
                     <p className='
                         mt-52 
@@ -19,7 +19,9 @@ export const Hero = () => {
                         text-main-yellow 
                         text-sm'>24/7 Taxi Service</p>
                     <h1 className='
-                            text-6xl
+                            md:text-6xl
+                            text-4xl
+                            text-left
                             font-interBold
                             w-full
                             md:max-w-[670px] 
@@ -31,7 +33,7 @@ export const Hero = () => {
                         font-interRegular'>We are a 24-hour Burry Port based Taxi courier providing excellent services for local, airport  and cruise transport services to which your satisfaction, safety and time is our main goal. 
                         </p>
 
-                    <div className='mt-12 w-96 '>
+                    <div className='md:w-96 w-full my-10 md:hidden flex'>
                         <Link 
                             href="/booking"
                             className='btn btn-yellow'>

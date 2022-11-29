@@ -66,9 +66,6 @@ export default function MainNavigation() {
         }
     ]
 
-    const handleClick = () => {
-        setDisplay(!display)
-    }
 
     return(
         <nav className="bg-main-dark w-full relative z-50">
@@ -95,11 +92,11 @@ export default function MainNavigation() {
 
                 <ul className="lg:flex flex-1 justify-end items-center hidden space-x-4">
                     {(mainMenu || []).map( (item) => (
-                        <li 
+                        <li                          
                             key={item.id} 
                             className="relative group cursor-pointer">
                             <Link 
-                                onClick={handleClick}
+                        
                                 className={`py-5 hover:text-main-yellow`} 
                                 href={item.destination}>
                                 {item.label}
@@ -168,6 +165,7 @@ export default function MainNavigation() {
                     <ul className="w-full px-4 py-6">
                         {(mainMenu || []).map( (item) => (
                             <li 
+                                onClick={()=>setDisplay(!display)}
                                 key={item.id} 
                                 className="
                                     py-3 
