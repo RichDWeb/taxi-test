@@ -17,13 +17,13 @@ export const HotelCard = ({hotel}) => {
                 flex
                 md:flex-row
                 flex-col">
-            <div className='absolute top-6 right-6 h-12 w-12 bg-main-yellow rounded flex items-center justify-center font-interSemiBold'>{hotel.rating}</div>
-            <div className='w-full max-w-[366px] h-[244px] relative m-4 overflow-hidden cursor-pointer'>
+            <div className='absolute top-6 right-6 h-12 w-12 bg-main-yellow rounded md:flex items-center justify-center font-interSemiBold hidden'>{hotel.rating}</div>
+            <div className='w-full md:max-w-[366px] h-[244px] relative overflow-hidden cursor-pointer'>
                 <Image 
                     fill={true}
                     src={hotel.image} 
                     alt={hotel.title} 
-                    className="object-cover rounded shadow cursor-pointer hover:scale-125 transition-all duration-500"/>
+                    className="object-cover rounded shadow cursor-pointer hover:scale-125 transition-all duration-500 p-4"/>
             </div>
             <div className='p-4 w-full md:max-w-[600px] flex flex-col justify-between'>
                 <div className='flex flex-col'>

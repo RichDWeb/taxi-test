@@ -15,12 +15,12 @@ export const SportCard = ({sport}) => {
                 flex
                 md:flex-row
                 flex-col">
-            <div className='w-[366px] h-[244px] m-4 overflow-hidden cursor-pointer relative'>
+            <div className='w-full md:max-w-[366px] h-[244px] relative overflow-hidden cursor-pointer'>
                 <Image 
                     fill={true}
                     src={sport.image} 
                     alt={sport.title} 
-                    className="object-cover rounded shadow cursor-pointer hover:scale-125 transition-all duration-500"/>
+                    className="object-cover p-4 rounded shadow cursor-pointer hover:scale-125 transition-all duration-500"/>
             </div>
             <div className='p-4 w-full md:max-w-[600px] flex flex-col justify-between'>
                 <div className='flex flex-col'>
