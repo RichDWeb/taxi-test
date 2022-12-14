@@ -5,11 +5,11 @@ import { BsArrowRight } from 'react-icons/bs'
 
 export const PopularPlaces = () => {
     return(
-        <section className=" bg-white">
+        <section className="bg-white">
 
             <div className="max-w-7xl h-full mx-auto py-16 bg-main">
 
-                <div className="font-interRegular md:p-0 p-4">
+                <div className="font-interRegular md:p-0 p-4 mx-4">
                     <h4 className='text-main-yellow text-xs uppercase font-interBold'>LOCAL CABS</h4>
                     <h2 className='text-zinc-800 text-4xl font-interExtraBold uppercase'>POPULAR PLACES TO VISIT</h2>
                     <p className='text-zinc-600 text-base mt-6 font-interRegular leading-7 max-w-[576px]'>There are so many places to 
@@ -18,9 +18,9 @@ export const PopularPlaces = () => {
                 </div>
 
                 {/* Link 1 */}
-                <div className=" bg-main-dark mt-20 flex  md:flex-row flex-col">
+                <div className=" bg-main-dark mt-20 flex lg:flex-row flex-col ">
 
-                    <div className="relative md:w-[640px] w-full h-[453px] order-1 overflow-hidden cursor-pointer">
+                    <div className="relative lg:w-[640px] w-full h-[453px] order-1 overflow-hidden cursor-pointer">
                         <Image 
                             src="/images/home-page/links/burryport-beach.jpg"
                             alt="Burry port beach."
@@ -45,11 +45,12 @@ export const PopularPlaces = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* Link 2 */}
                 <div className=" 
-                    bg-main-dark flex justify-between md:flex-row flex-col font-radioCanadaRegular">
+                    bg-main-dark flex justify-between lg:flex-row flex-col font-radioCanadaRegular">
 
-                    <div className="relative md:w-[640px] w-full h-[453px] md:order-2 order-1 overflow-hidden cursor-pointer">
+                    <div className="relative lg:w-[640px] w-full h-[453px]  lg:order-2 order-1 overflow-hidden cursor-pointer">
                         <Image 
                             src="/images/home-page/links/pembrey-beach.jpg"
                             alt="Pembery country park and Beach."

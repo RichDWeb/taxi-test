@@ -8,7 +8,7 @@ export default function BookingForm() {
     return (
         <article className="
                     hidden 
-                    lg:inline-block 
+                    xl:inline-block 
                     absolute 
                     top-14 
                     right-0 

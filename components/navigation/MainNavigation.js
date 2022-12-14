@@ -22,7 +22,7 @@ export default function MainNavigation() {
         },
         {
             id: 2,
-            destination: '#service',
+            destination: '/services',
             label: 'Services',
             subMenu: [
                 {
@@ -103,7 +103,7 @@ export default function MainNavigation() {
                             </Link>
                         
                             
-                            {!!item.subMenu?.length && (
+                            {!!item.subMenu.length && (
                                 <ul 
                                     className="
                                         group-hover:block 
@@ -158,9 +158,10 @@ export default function MainNavigation() {
                         flex-col
                         z-50
                         w-full
-                        h-screen
+                        min-h-screen
                         absolute
-                        top-16` : 'hidden'}`}>
+                        top-16
+                        ` : 'hidden'}`}>
 
                     <ul className="w-full px-4 py-6">
                         {(mainMenu || []).map( (item) => (
@@ -181,7 +182,7 @@ export default function MainNavigation() {
                                 </Link>
 
                                 
-                                {displaySubMenu && !!item.subMenu?.length && (
+                                {/* {displaySubMenu && !!item.subMenu?.length && (
                                     <ul className="mt-4 ml-4">
 
                                         {item.subMenu.map( (subMenuItem) => (
@@ -196,7 +197,7 @@ export default function MainNavigation() {
                                             </li>
                                         ))}
                                     </ul>
-                                )}
+                                )} */}
                             </li>
                         ))}
                     </ul>

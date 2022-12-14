@@ -5,7 +5,7 @@ import BookingForm from '../inputs/BookingForm'
 export const Hero = () => {
     return(
         <section>
-            <div className='relative flex w-full bg-main-dark'>   
+            <div className='relative flex w-full bg-main-dark md:py-0 py-10'>   
             
                 <div className='relative z-30 text-white w-full max-w-[1484px] md:h-[800px] mx-auto px-4'>
 
@@ -33,8 +33,7 @@ export const Hero = () => {
                             md:w-[540px] 
                             mt-8 
                             font-interRegular
-                            md:text-base
-                            text-sm
+                            text-base
                             '>
                         We are a 24-hour Burry Port based Taxi courier providing excellent services for local, 
                         airport  and cruise transport services to which your satisfaction, safety and time is 
