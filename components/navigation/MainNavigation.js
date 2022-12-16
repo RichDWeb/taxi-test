@@ -49,7 +49,7 @@ export default function MainNavigation() {
         },
         {
             id: 3,
-            destination: '/pricing/1',
+            destination: '/pricing',
             label: 'Pricing',
             subMenu: []
         },
@@ -156,7 +156,7 @@ export default function MainNavigation() {
                         bg-main-dark
                         flex
                         flex-col
-                        z-50
+                        z-40
                         w-full
                         min-h-screen
                         absolute
@@ -165,6 +165,7 @@ export default function MainNavigation() {
 
                     <ul className="w-full px-4 py-6">
                         {(mainMenu || []).map( (item) => (
+                            
                             <li 
                                 onClick={()=>setDisplay(!display)}
                                 key={item.id} 
@@ -178,7 +179,6 @@ export default function MainNavigation() {
                                     className="flex items-center justify-between"
                                     href={item.destination}>
                                     {item.label}
-                                    {item.label === 'Services' && <BiChevronDown  className="text-lg"/>}
                                 </Link>
 
                                 
@@ -200,6 +200,14 @@ export default function MainNavigation() {
                                 )} */}
                             </li>
                         ))}
+                        <li className="my-10">
+                            <Link 
+                                onClick={()=>setDisplay(!display)}
+                                href="/booking" 
+                                className="btn btn-yellow">
+                                Book Your Taxi
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </div>

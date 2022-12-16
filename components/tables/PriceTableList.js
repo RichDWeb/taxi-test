@@ -1,14 +1,10 @@
 import PriceTableItem from "../tables/PriceTableItem"
 
 export default function PriceTableList({data}) {
-    if(!data) {
-        return <p>Loading...</p>
-    }
-
     return (
         <tbody>
             {
-                data.map((item) => <PriceTableItem key={item.id} item={item} />)
+                data?.map((item, index) => <PriceTableItem key={item.id} index={index} item={item} />)
             }
         </tbody>
     )

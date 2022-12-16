@@ -27,7 +27,7 @@ export const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className='flex flex-col w-full max-w-[600px] mx-auto px-4'>
+                <div className='flex flex-col w-full lg:max-w-[600px] mx-auto px-4 md:max-w-[700px] '>
                     <h4 className='text-main-yellow text-xs uppercase font-interBold'>A LITTLE ABOUT US</h4>
                     <h2 className='text-zinc-800 text-4xl font-interExtraBold uppercase'>Trusted Burry Port Cabs</h2>
 
@@ -41,7 +41,7 @@ export const AboutUs = () => {
                         popular travel locations to help the customer get to their destination satisfied, 
                         safe and on time.</p>
 
-                    <div className='border border-gray-200 mt-20 mb-4'></div>
+                    <div className='border border-gray-200 mt-20 mb-4 md:block hidden'></div>
 
                     <div className='flex md:flex-row flex-col items-center md:justify-between justify-center'>
                         <div className='md:flex items-center w-full md:space-x-2 hidden'>
@@ -55,7 +55,7 @@ export const AboutUs = () => {
                                 <p className='text-xl text-zinc-800 font-interExtraBold'>01554 70 69 69</p>
                             </div>
                         </div>
-                        <div className='w-full flex justify-center'>
+                        <div className='w-full flex justify-center md:mt-0 mt-14'>
                             <Link href="/booking" className='btn btn-yellow'>Book Your Taxi</Link>
                         </div>
                     </div>

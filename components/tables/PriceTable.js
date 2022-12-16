@@ -2,20 +2,16 @@ import PriceTableList from './PriceTableList'
 
 export default function PriceTable({data}) {
     return(
-        <section>
-            <div className="flex flex-col w-full max-w-7xl mx-auto">
+        <section className='font-interMedium h-[600px]'>
+            <div className="flex flex-col w-full max-w-7xl mx-auto px-4">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="overflow-hidden">
-                            <table className="min-w-full">
-
+                            <table className="w-full">
                                 <thead className="bg-main-dark border-b">
                                     <tr>
                                         <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
                                             City
-                                        </th>
-                                        <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
-                                            City Area
                                         </th>
                                         <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
                                             Destination
@@ -23,18 +19,16 @@ export default function PriceTable({data}) {
                                         <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
                                             Fixed Price
                                         </th>
-                                        <th scope="col"></th>
+                                        
                                     </tr>
                                 </thead>
+                                {!data && <div className="flex items-center justify-center my-20"><div className="w-12 h-12 border-4 border-main-yellow rounded-full loader"></div></div>}
                                 <PriceTableList data={data} />
                             </table>
                         </div>
                     </div>
                 </div>
             </div>
-            
-
-
         </section>
     )
 }
