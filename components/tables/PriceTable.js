@@ -3,11 +3,11 @@ import PriceTableList from './PriceTableList'
 export default function PriceTable({data}) {
     return(
         <section className='font-interMedium h-[600px]'>
-            <div className="flex flex-col w-full max-w-7xl mx-auto px-4">
+            <div className="flex flex-col w-full max-w-7xl mx-auto">
                 <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                         <div className="overflow-hidden">
-                            <table className="w-full">
+                            <table className="min-w-full">
                                 <thead className="bg-main-dark border-b">
                                     <tr>
                                         <th scope="col" className="text-sm font-medium text-white px-6 py-4 text-left">
