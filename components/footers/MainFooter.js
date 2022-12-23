@@ -38,11 +38,11 @@ export default function MainFooter() {
                     <p className="w-[300px] text-white mt-[32px] font-interRegular leading-6">We are a 24-hour Burry Port based Taxi courier providing excellent services for local, airport and cruise transport services to which your satisfaction, safety and time is our main goal. 
                     </p>
 
-                    <div className='flex mt-[40px] space-x-3'>
+                    {/* <div className='flex mt-[40px] space-x-3'>
                         <AiFillFacebook className='text-4xl text-white cursor-pointer' />
                         <AiFillTwitterSquare className='text-4xl text-white cursor-pointer' />
                         <AiFillInstagram className='text-4xl text-white cursor-pointer' />
-                    </div>
+                    </div> */}
 
                 </div>
 
@@ -54,16 +54,19 @@ export default function MainFooter() {
                     </div>
                     <ul className='flex flex-col space-y-1 mt-[37px] font-interRegular'> 
                         <li>
-                            <Link href="/" className='hover:text-main-yellow'>About Us</Link>
+                            <Link href="/services" className='hover:text-main-yellow'>Services</Link>
                         </li>
                         <li>
-                            <Link href="/" className='hover:text-main-yellow'>Services</Link>
+                            <Link href="/pricing" className='hover:text-main-yellow'>Pricing</Link>
                         </li>
                         <li>
-                            <Link href="/" className='hover:text-main-yellow'>Pricing</Link>
+                            <Link href="/links" className='hover:text-main-yellow'>Links</Link>
                         </li>
                         <li>
-                            <Link href="/" className='hover:text-main-yellow'>Contact</Link>
+                            <Link href="/Contact" className='hover:text-main-yellow'>Contact</Link>
+                        </li>
+                        <li>
+                            <Link href="/Contact" className='hover:text-main-yellow'>Booking</Link>
                         </li>
                     </ul>
                 </div>
@@ -116,6 +119,7 @@ export default function MainFooter() {
                             </div>
                             <div><p>24h</p></div>
                         </li>
+                        
                       
                     </ul>
                 </div>

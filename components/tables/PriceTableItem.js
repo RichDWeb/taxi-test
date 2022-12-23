@@ -6,13 +6,16 @@ export default function PriceTableItem({item, index}) {
             cursor-pointer
             font-interLight`} >
 
-            <td className="px-6 py-4 whitespace-nowrap text-sm ">
+            <td className="md:block hidden  whitespace-nowrap text-sm p-4">
                 {item.city}
             </td>
-            <td className="text-sm px-6 py-4 whitespace-nowrap">
+            <td className="whitespace-nowrap text-sm p-4">
+                {item.area}
+            </td>
+            <td className="text-sm whitespace-nowrap p-4">
                 {item.airport}
             </td>
-            <td className="text-sm px-6 py-4 whitespace-nowrap font-interBold">
+            <td className="text-sm whitespace-nowrap font-interBold p-4">
                 £{item.cost}.00
             </td>
         </tr>
