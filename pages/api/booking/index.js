@@ -75,13 +75,18 @@ export default async function handle(req, res) {
             text: messageToBeSent
         }
 
-        transporter.sendMail(mailOptions, function(error, info){
-            if (error) {
-                console.log(error);
-            } else {
-                console.log('Email sent: ' + info.response);
-            }
-        });
+        await new Promise((resolve, reject) => {
+            // send mail
+            transporter.sendMail(mailData, (err, info) => {
+                if (err) {
+                    console.error(err);
+                    reject(err);
+                } else {
+                    console.log(info);
+                    resolve(info);
+                }
+            })
+        })
 
         res.status(200).json({ message: 'Successfuly Sent'})
     }
