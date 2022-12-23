@@ -4,6 +4,8 @@ async function validateHuman(token) {
 
     const secret = process.env.RECAPTCHA_SECRET_KEY
 
+    console.log(secret)
+
     const res = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${token}`, {
         method: 'POST',
         headers: {
@@ -13,6 +15,9 @@ async function validateHuman(token) {
 
     const data = await res.json()
 
+
+    console.log(data)
+
     return data.success
 }
 
@@ -21,7 +26,6 @@ export default async function handle(req, res) {
     if(req.method === 'POST') {
 
         const human = await validateHuman(req.body.token)
-
         if(!human) {
             res.status(400).json({ message: 'Not Authorised'})
             return 
