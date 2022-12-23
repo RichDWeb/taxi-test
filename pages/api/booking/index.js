@@ -68,7 +68,7 @@ export default async function handle(req, res) {
             })
         }) 
 
-        const mailOptions = {
+        const mailData = {
             from: 'localcabsemail@gmail.com',
             to: 'rd.codex@outlook.com',
             subject: 'Booking',
