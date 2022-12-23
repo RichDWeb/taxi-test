@@ -35,7 +35,6 @@ export default function BookingForm()  {
         // ReCapture token
         const token = await reRef.current.executeAsync()
         reRef.current.reset()
-        
         const url = '/api/booking'
 
         const bookingDataObj = {
@@ -57,6 +56,8 @@ export default function BookingForm()  {
             const data = await res.json()
 
             setResult(data.message)
+
+            console.log(data.message)
 
         } catch (error) {
             console.lof(error)
