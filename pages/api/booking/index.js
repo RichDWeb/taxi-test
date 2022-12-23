@@ -67,6 +67,6 @@ export default async function handle(req, res) {
             }
         });
 
-        res.status(200).json({ message: 'successful'})
+        res.status(200).json({ message: 'Successfuly Sent'})
     }
 }
