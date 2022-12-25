@@ -12,14 +12,11 @@ export default function Booking() {
                         <div className='md:w-[740px] w-full p-4'>
                             
                             <h2 className='mt-14 text-zinc-800 text-3xl font-interExtraBold uppercase'>
-                                Taxi Booking Disclaimer.
+                                Localcabs Bookings
                             </h2>
                             
                             <p className='mt-5 text-zinc-600 text-base font-interRegular leading-7'>
-                                Burry Port Local Cabs works with a small network of assured Taxi operators, and as 
-                                such we may sometimes share your booking requests with our recognised partners, 
-                                when we do they may contact you with a quote, and later invoice you if required.  
-                                Once you receive their invoice it is only then that you pay.
+                                
                             </p>
 
                         </div>

@@ -21,11 +21,12 @@ const schema = z.object({
 
 export default function BookingForm()  {
 
-    const { register, handleSubmit, formState: { errors } } = useForm({
+    const { register, handleSubmit, reset, formState: { errors } } = useForm({
         resolver: zodResolver(schema)
     })
 
     const [ result, setResult ] = useState('')
+    const [ showModal, setShowModal ] = useState(false)
     const reRef = useRef()
 
     const handleResults = async (formValues) => {
@@ -55,8 +56,10 @@ export default function BookingForm()  {
             setResult(data.message)
 
         } catch (error) {
-            console.lof(error)
+            return console.lof(error)
         }
+
+        reset()
     }
 
     return (
@@ -188,7 +191,7 @@ export default function BookingForm()  {
                         {...register("oneWayDate")}
                         id="oneWayDate"
                         type="date" 
-                        className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px]" />
+                        className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px] bg-white" />
                         <span className="text-red-500">{errors.oneWayDate?.message}</span>
                 </div>
 
@@ -199,7 +202,7 @@ export default function BookingForm()  {
                             {...register("oneWayTime")}
                             id="onewayTime"
                             type="time" 
-                            className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px]"/>
+                            className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px] bg-white"/>
                             <span className="text-red-500">{errors.oneWayTime?.message}</span>
                 </div>
             </div>
@@ -209,12 +212,12 @@ export default function BookingForm()  {
 
                 {/* Return Date Picker */}
                 <div className="flex flex-col px-4 py-2 w-full md:mt-0 mt-2">
-                        <label htmlFor="returnDate">Return Date <span className="text-xs text-black/80">(Leave blank if no return is needed)</span></label>
-                        <input 
-                            {...register("returnDate")}
-                            id="returnDate"
-                            type="date" 
-                            className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px]" />
+                    <label htmlFor="returnDate">Return Date <span className="text-xs text-black/80">(Leave blank if no return is needed)</span></label>
+                    <input 
+                        {...register("returnDate")}
+                        id="returnDate"
+                        type="date" 
+                        className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px] bg-white" />
                             
                 </div>
 
@@ -225,7 +228,7 @@ export default function BookingForm()  {
                         {...register("returnTime")}
                         id="returnTime"
                         type="time" 
-                        className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px]"/>
+                        className="mt-1 border p-2 rounded outline-none w-full h-14 lg:w-[514px] bg-white"/>
                 </div>
             </div>
             
@@ -253,13 +256,35 @@ export default function BookingForm()  {
             </div>
             
             <div className='w-full px-4 mt-10'>
-                <button
-                    type='submit' 
-                    className='btn btn-yellow flex items-center justify-around h-11 uppercase'>
+                <div
+                    onClick={() => setShowModal(true)} 
+                    className='btn btn-yellow flex items-center justify-around h-11 uppercase cursor-pointer'>
                     Book Your Cab
-                </button>
+                </div>
             </div>
 
+            {/* Modal */}
+            {
+                showModal && (
+                    <div id="container" onClick={(e) => { e.target.id === "container" && setShowModal(false) }} className="fixed inset-0 bg-black z-50 bg-opacity-30 backdrop-blur-sm flex items-center justify-center">
+                        <div className="bg-white p-10 rounded mx-4">
+                            <div className="w-full max-w-4xl mt-2 mb-6">
+                                <h3 className="text-2xl font-interSemiBold">Taxi Booking Disclaimer</h3>
+                                <p className="text-zinc-600 text-sm mt-6 font-interRegular leading-7">Burry Port Local Cabs works with a small network of assured Taxi operators, 
+                                    and as such we may sometimes share your booking requests with our 
+                                    recognised partners, when we do they may contact you with a quote, 
+                                    and later invoice you if required. Once you receive their invoice 
+                                    it is only then that you pay.</p>
+                            </div>
+
+                            <div className="flex items-center justify-center">
+                                <button type="submit" className="btn btn-yellow" onClick={() => setShowModal(false)}>Accept</button>
+                                <div className="btn cursor-pointer" onClick={() => setShowModal(false)}>Cancel</div>
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
         </form>
     )
 }
